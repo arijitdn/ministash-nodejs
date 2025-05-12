@@ -1,0 +1,38 @@
+{
+  "name": "ministash",
+  "version": "1.0.0",
+  "description": "SDK for Mini Stash - The best file hosting platform where you get both dashboard and a personalised api to perform CRUD operations on your files.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "ministash",
+    "filehosting",
+    "hosting",
+    "storage"
+  ],
+  "homepage": "https://github.com/arijitdn/ministash-nodejs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arijitdn/ministash-nodejs.git"
+  },
+  "author": "Arijit Debnath <contact@arijit.dev>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "packageManager": "pnpm@10.8.0",
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": "./dist/index.js",
+      "default": "./dist/index.cjs"
+    }
+  }
+}
