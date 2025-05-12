@@ -1,5 +1,5 @@
 {
-  "name": "ministash",
+  "name": "@ministash/node",
   "version": "1.0.0",
   "description": "SDK for Mini Stash - The best file hosting platform where you get both dashboard and a personalised api to perform CRUD operations on your files.",
   "main": "dist/index.js",
